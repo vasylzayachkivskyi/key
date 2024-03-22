@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Агентам</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/swiper.css">
+    <link rel="stylesheet" href="css/lib/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="pagewrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <div class="row ">
+                        <div class="col-2">
+                            <div class="header__logo">
+                                <a href="#">
+                                    <img src="img/logo.png" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            <div class="header__counter">
+                                <img src="img/usd_icon.png" alt="usd">
+                                <p>USD</p>
+                                <div class="header__counter-dropdown">
+                                    <h2>Курси валют</h2>
+                                    <h3>USD: 41.90</h3>
+                                    <h3>EUR: 43.00</h3>
+                                    <p>
+                                        дана інформація не є офційним курсом валют і вказана для можливості туристів
+                                        самостійно перевірити вартість туристичних
+                                        послуг туроператора
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="header__email">
+                                <img src="img/mail_icon.png" alt="mail">
+                                <a href="mailto:zayavka.key@gmail.com">
+                                    zayavka.key@gmail.com
+                                </a>
+                            </div>
+                            <div class="header__altu">
+                                <a href="#">
+                                    <img src="img/altu_icon.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header__phone">
+                                <a href="tel:068 300 91 22">
+                                    <img src="img/phone_icon.png" alt="phone">
+                                    068 300 91 22
+                                </a>
+                            </div>
+                            <button class="burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <nav class="header__menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <span>
+                                    Головна
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tour-calendar.html">
+                                <span>
+                                    Календар турів
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="country-page.html">
+                                <span>
+                                    Країни
+                                </span>
+                            </a>
+                        </li>
+                        <li class="submenu">
+                            <a href="camp-page.html">
+                                <span>
+                                    Дитячий відпочинок
+                                </span>
+                            </a>
+                            <ul class="submenu-dropdown">
+                                <li>
+                                    <a href="#">
+                                        Табір Україна
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Табір Болгарія
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="active">
+                            <a href="agents-page.html">
+                                <span>
+                                    Агенства
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <span>
+                                    Про нас
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="header__menu-mobile">
+                    <ul>
+                        <li class="active">
+                            <a href="index.html">
+                                <span>
+                                    Головна
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tour-calendar.html">
+                                <span>
+                                    Календар турів
+                                </span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="country-page.html">
+                                <span>
+                                    Країни
+                                </span>
+                            </a>
+                        </li>
+                        <li class="submenu">
+                            <a href="#">
+                                <span>
+                                    Дитячий відпочинок
+                                </span>
+                            </a>
+                            <ul class="submenu-dropdown">
+                                <li>
+                                    <a href="#">
+                                        Табір Україна
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Табір Болгарія
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    Агенства
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <span>
+                                    Про нас
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="header__email-mobile">
+                        <img src="img/mail_icon.png" alt="mail">
+                        <a href="mailto:zayavka.key@gmail.com">
+                            zayavka.key@gmail.com
+                        </a>
+                    </div>
+
+
+                    <div class="header__phone-mobile">
+                        <a href="tel:068 300 91 22">
+                            <img src="img/phone_icon.png" alt="phone">
+                            068 300 91 22
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <section class="pages-heroscreen" data-aos="fade">
+                <div class="container">
+                    <div class="pages-heroscreen__slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="pages-heroscreen__slide">
+                                    <img src="img/agents_hero.png" alt="slide">
+                                    <h2>Агентам для співпраці</h2>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="pages-heroscreen__slide">
+                                    <img src="img/tour_heroimage2.png" alt="slide">
+                                    <h2>Агентам для співпраці</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="agens-page" data-aos="fade">
+                <div class="container">
+                    <div class="article-content">
+                        <h1 class="secttitle">
+                            Шановні Колеги!
+                        </h1>
+                        <div class="article-content__top">
+                            <div class="additional-info">
+                                <p>
+                                    Всі Агентські договори укладені у 2016 р., будуть автоматично пролонговані на 2017
+                                    р.
+                                </p>
+                            </div>
+                            <p></p>
+                            <h2>
+                                Порядок укладенняагентського договору
+                            </h2>
+                            <ol>
+                                <li>
+                                    <b>Етап:</b> Для ШВИДКОГО початку роботи потрібно відправити на електронну адресу <a
+                                        href="#">dogovir.key@gmail.com</a> заповнені і відскановані сторінки
+                                    <b>договору</b>
+                                    (першу і останню), і пакет необхідних реєстраційних документів підприємства (список
+                                    вказано
+                                    нижче).
+                                </li>
+                                <li>
+                                    <b>Етап:</b> Після отримання всіх необхідних копій Ви отримаєте логін і пароль
+                                    доступу до
+                                    системи онлайн бронювання на Вашу електронну адресу.
+                                </li>
+                                <li>
+                                    <b>Етап:</b> Повністю заповнений договір і копії реєстраційних документів
+                                    підприємства,
+                                    завірені печаткою, необхідно надіслати на адресу: <b>76018, м Івано-Франківськ, вул.
+                                        Страчених, 7, або занести в наш офіс.</b>
+                                </li>
+                            </ol>
+                        </div>
+                        <h2>
+                            Список документів, необхідних для підписання агентського договору з компанією Кей:
+                        </h2>
+                        <h3>
+                            <b>
+                                Для Юридичних Осіб:
+                            </b>
+                        </h3>
+                        <ul>
+                            <li>
+                                підтвердження фінансового забезпечення відповідальності (гарантія банку або іншої
+                                кредитної
+                                установи) перед туристом або сертифікат АЛТУ;
+                            </li>
+                            <li>
+                                копія свідоцтва про державну реєстрацію ТУРАГЕНТА;
+                            </li>
+                            <li>
+                                копія свідоцтва платника ПДВ (обов'язково тільки для платників ПДВ);
+                            </li>
+                            <li>
+                                копія свідоцтва платника єдиного податку (обов'язково тільки для платників єдиного
+                                податку);
+                            </li>
+                            <li>
+                                копія ліцензії на здійснення туроператорської діяльності (при її наявності у ТУРАГЕНТА).
+                            </li>
+                        </ul>
+                        <h3>
+                            <b>
+                                Для Фізичних Осіб Підприємців:
+                            </b>
+                        </h3>
+                        <ul>
+                            <li>
+                                підтвердження фінансового забезпечення відповідальності (гарантія банку або іншої
+                                кредитної
+                                установи) перед туристом або сертифікат АЛТУ;
+                            </li>
+                            <li>
+                                копія свідоцтва про державну реєстрацію ТУРАГЕНТА;
+                            </li>
+                            <li>
+                                копія свідоцтва платника ПДВ (обов'язково тільки для платників ПДВ);
+                            </li>
+                            <li>
+                                копія свідоцтва платника єдиного податку (обов'язково тільки для платників єдиного
+                                податку);
+                            </li>
+                            <li>
+                                копія ліцензії на здійснення туроператорської діяльності (при її наявності у ТУРАГЕНТА).
+                            </li>
+                        </ul>
+                        <h2>
+                            Доповнення для ФОП платників Єдиного Податку
+                        </h2>
+                        <div class="additional-info">
+                            <p>
+                                ТУРАГЕНТ зобов'язаний негайно інформувати ТУРОПЕРАТОРА про перехід на іншу систему
+                                оподаткування
+                                шляхом направлення офіційного листа. При переході на єдиний податок ТУРАГЕНТ
+                                зобов'язаний надати
+                                копію витягу з Єдиного державного реєстру юридичних осіб та фізичних осіб-підприємців,
+                                копію
+                                Свідоцтва про сплату єдиного податку протягом 10 днів з моменту такого переходу.
+                            </p>
+                        </div>
+                        <p>
+                            Зі змістом нової редакції агентського договору ви можете ознайомитися в розділі "Зразки
+                            документів".
+                        </p>
+                        <p>
+
+                        </p>
+                        <div class="documents-box">
+                            <h3>
+                                <b>Документи:</b>
+                            </h3>
+                            <div class="documents-row">
+                                <a href="#" download>
+                                    <img src="img/download_icon.svg" alt="download">
+                                    <span>NEW! Агентський договір 2021</span>
+                                </a>
+                                <p>
+                                    Разом з Агентським договорем Обов'язково надсилайте копію Банківської Гарантії.
+                                </p>
+                            </div>
+                            <div class="documents-row">
+                                <a href="#" download>
+                                    <img src="img/download_icon.svg" alt="download">
+                                    <span>Анкета для відкриття болгарської візи</span>
+                                </a>
+                            </div>
+                        </div>
+                        <h4>
+                            <b>
+                                Штрафні санкції по автобусу:
+                            </b>
+                        </h4>
+                        <ul>
+                            <li>
+                                Ануляція місць за місяць і більше до початку туру - 50 %
+                            </li>
+                            <li>
+                                Ануляція місць менше місяця - 100 %
+                            </li>
+                        </ul>
+                        <h4>
+                            <b>
+                                Штрафні санкції по візовій підтримці:
+                            </b>
+                        </h4>
+                        <ul>
+                            <li>
+                                Штрафні санкції по візовій підтримці :
+                            </li>
+                        </ul>
+                        <h4>
+                            <b>
+                                Штрафні санкції по бронюванню готелів:
+                            </b>
+                        </h4>
+                        <ul>
+                            <li>
+                                Ануляція за місяць і більше - 25%
+                            </li>
+                            <li>
+                                Ануляція за 2 тижні до початку туру - 50 %
+                            </li>
+                            <li>
+                                Ануляція менше ніж за 2 тижні - 100 %
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer__logo">
+                            <a href="#">
+                                <img src="img/logo.png" alt="logotype">
+                            </a>
+                        </div>
+                        <div class="footer__menu">
+                            <div class="footer__menu-col">
+                                <h4>
+                                    Інформація
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            Головна
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Про нас
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Агенства
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__menu-col">
+                                <h4>
+                                    Послуги
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            Календар турів
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Країни
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Дитячий відпочинок
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__copy">
+                            <p>© 2024 KEY Trevel Company, Inc. All Rights Reserved</p>
+                        </div>
+                        <div class="footer__socials">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/footer_facebook_icon.png" alt="facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/footer_instagram_icon.png" alt="facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/footer_telegram_icon.png" alt="facebook">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/aos.js"></script>
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

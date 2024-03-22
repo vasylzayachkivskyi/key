@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карта сайту</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <style>
+    body{
+      background-color: #c4c4c49a;
+      padding: 40px;
+    }
+    .sitemap {
+      padding: 80px 70px;
+      border-radius: 30px;
+      background-color: #f2f2f2;
+      height: calc(100vh - 80px);
+    }
+
+
+    .sitemap__link {
+      font-size: 24px;
+      line-height: 150%;
+      font-weight: 500;
+      padding: 10px 0 0;
+      display: block;
+      color: #d86100;
+      transition: .3s;
+    }
+
+
+    .sitemap__link:hover {
+      color: #f19244;
+      transform: translateX(20px);
+    }
+
+    @media(max-width:1440px) {
+      .sitemap__link {
+        font-size: 20px;
+      }
+    }
+
+    @media(max-width:992px) {
+      .sitemap__link {
+        font-size: 18px;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+    }
+
+    
+  </style>
+
+  
+<section class="sitemap">
+  <a target="_blank" class="sitemap__link" href="index.html">Головна</a>
+  <a target="_blank" class="sitemap__link" href="tour-calendar.html">Календар турів</a>
+  <a target="_blank" class="sitemap__link" href="article-page.html">Стаття</a>
+  <a target="_blank" class="sitemap__link" href="country-page.html">Країни</a>
+  <a target="_blank" class="sitemap__link" href="camp-page.html">Дитячий відпочинок</a>
+  <a target="_blank" class="sitemap__link" href="agents-page.html">Агентам для співпраці</a>
+  <a target="_blank" class="sitemap__link" href="about.html.html">Про нас</a>
+</section>
+  
+
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

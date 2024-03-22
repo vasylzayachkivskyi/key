@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Країни</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/swiper.css">
+    <link rel="stylesheet" href="css/lib/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="pagewrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <div class="row ">
+                        <div class="col-2">
+                            <div class="header__logo">
+                                <a href="#">
+                                    <img src="img/logo.png" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            <div class="header__counter">
+                                <img src="img/usd_icon.png" alt="usd">
+                                <p>USD</p>
+                                <div class="header__counter-dropdown">
+                                    <h2>Курси валют</h2>
+                                    <h3>USD: 41.90</h3>
+                                    <h3>EUR: 43.00</h3>
+                                    <p>
+                                        дана інформація не є офційним курсом валют і вказана для можливості туристів
+                                        самостійно перевірити вартість туристичних
+                                        послуг туроператора
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="header__email">
+                                <img src="img/mail_icon.png" alt="mail">
+                                <a href="mailto:zayavka.key@gmail.com">
+                                    zayavka.key@gmail.com
+                                </a>
+                            </div>
+                            <div class="header__altu">
+                                <a href="#">
+                                    <img src="img/altu_icon.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header__phone">
+                                <a href="tel:068 300 91 22">
+                                    <img src="img/phone_icon.png" alt="phone">
+                                    068 300 91 22
+                                </a>
+                            </div>
+                            <button class="burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <nav class="header__menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <span>
+                                    Головна
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tour-calendar.html">
+                                <span>
+                                    Календар турів
+                                </span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="country-page.html">
+                                <span>
+                                    Країни
+                                </span>
+                            </a>
+                        </li>
+                        <li class="submenu">
+                            <a href="camp-page.html">
+                                <span>
+                                    Дитячий відпочинок
+                                </span>
+                            </a>
+                            <ul class="submenu-dropdown">
+                                <li>
+                                    <a href="#">
+                                        Табір Україна
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Табір Болгарія
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="agents-page.html">
+                                <span>
+                                    Агенства
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <span>
+                                    Про нас
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="header__menu-mobile">
+                    <ul>
+                        <li class="active">
+                            <a href="index.html">
+                                <span>
+                                    Головна
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tour-calendar.html">
+                                <span>
+                                    Календар турів
+                                </span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="country-page.html">
+                                <span>
+                                    Країни
+                                </span>
+                            </a>
+                        </li>
+                        <li class="submenu">
+                            <a href="#">
+                                <span>
+                                    Дитячий відпочинок
+                                </span>
+                            </a>
+                            <ul class="submenu-dropdown">
+                                <li>
+                                    <a href="#">
+                                        Табір Україна
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Табір Болгарія
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    Агенства
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    Про нас
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="header__email-mobile">
+                        <img src="img/mail_icon.png" alt="mail">
+                        <a href="mailto:zayavka.key@gmail.com">
+                            zayavka.key@gmail.com
+                        </a>
+                    </div>
+
+
+                    <div class="header__phone-mobile">
+                        <a href="tel:068 300 91 22">
+                            <img src="img/phone_icon.png" alt="phone">
+                            068 300 91 22
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <section class="pages-heroscreen">
+                <div class="container">
+                    <div class="pages-heroscreen__slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="pages-heroscreen__slide">
+                                    <img src="img/tour_heroimage3.png" alt="slide">
+                                    <h2>Країни</h2>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="pages-heroscreen__slide">
+                                    <img src="img/tour_heroimage2.png" alt="slide">
+                                    <h2>Країни</h2>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="pages-heroscreen__slide">
+                                    <img src="img/country2.png" alt="slide">
+                                    <h2>Країни</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="countries">
+                <div class="container">
+                    <div class="countries__inner">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade">
+                                <div class="countries__item">
+                                    <a href="#">
+                                        <img src="img/country1.png" alt="image">
+                                        <h3>Болгарія</h3>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade">
+                                <div class="countries__item">
+                                    <a href="#">
+                                        <img src="img/country2.png" alt="image">
+                                        <h3>Туреччина</h3>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade">
+                                <div class="countries__item">
+                                    <a href="#">
+                                        <img src="img/country3.png" alt="image">
+                                        <h3>Польща</h3>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade">
+                                <div class="countries__item">
+                                    <a href="#">
+                                        <img src="img/country4.png" alt="image">
+                                        <h3>Угорщина</h3>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade">
+                                <div class="countries__item">
+                                    <a href="#">
+                                        <img src="img/country5.png" alt="image">
+                                        <h3>Румунія</h3>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade">
+                                <div class="countries__item">
+                                    <a href="#">
+                                        <img src="img/country6.png" alt="image">
+                                        <h3>Україна</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer__logo">
+                            <a href="#">
+                                <img src="img/logo.png" alt="logotype">
+                            </a>
+                        </div>
+                        <div class="footer__menu">
+                            <div class="footer__menu-col">
+                                <h4>
+                                    Інформація
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            Головна
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Про нас
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Агенства
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__menu-col">
+                                <h4>
+                                    Послуги
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            Календар турів
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Країни
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Дитячий відпочинок
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__copy">
+                            <p>© 2024 KEY Trevel Company, Inc. All Rights Reserved</p>
+                        </div>
+                        <div class="footer__socials">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/footer_facebook_icon.png" alt="facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/footer_instagram_icon.png" alt="facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/footer_telegram_icon.png" alt="facebook">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/aos.js"></script>
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

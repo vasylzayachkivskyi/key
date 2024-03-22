@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/swiper.css">
+    <link rel="stylesheet" href="css/lib/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="pagewrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <div class="row ">
+                        <div class="col-2">
+                            <div class="header__logo">
+                                <a href="#">
+                                    <img src="img/logo.png" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            <div class="header__counter">
+                                <img src="img/usd_icon.png" alt="usd">
+                                <p>USD</p>
+                                <div class="header__counter-dropdown">
+                                    <h2>Курси валют</h2>
+                                    <h3>USD: 41.90</h3>
+                                    <h3>EUR: 43.00</h3>
+                                    <p>
+                                        дана інформація не є офційним курсом валют і вказана для можливості туристів
+                                        самостійно перевірити вартість туристичних
+                                        послуг туроператора
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="header__email">
+                                <img src="img/mail_icon.png" alt="mail">
+                                <a href="mailto:zayavka.key@gmail.com">
+                                    zayavka.key@gmail.com
+                                </a>
+                            </div>
+                            <div class="header__altu">
+                                <a href="#">
+                                    <img src="img/altu_icon.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header__phone">
+                                <a href="tel:068 300 91 22">
+                                    <img src="img/phone_icon.png" alt="phone">
+                                    068 300 91 22
+                                </a>
+                            </div>
+                            <button class="burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <nav class="header__menu">
+                    <ul>
+                        <li class="active">
+                            <a href="index.html">
+                                <span>
+                                    Головна
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tour-calendar.html">
+                                <span>
+                                    Календар турів
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="country-page.html">
+                                <span>
+                                    Країни
+                                </span>
+                            </a>
+                        </li>
+                        <li class="submenu">
+                            <a href="#">
+                                <span>
+                                    Дитячий відпочинок
+                                </span>
+                            </a>
+                            <ul class="submenu-dropdown">
+                                <li>
+                                    <a href="#">
+                                        Табір Україна
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Табір Болгарія
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="agents-page.html">
+                                <span>
+                                    Агенства
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <span>
+                                    Про нас
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="header__menu-mobile">
+                    <ul>
+                        <li class="active">
+                            <a href="index.html">
+                                <span>
+                                    Головна
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tour-calendar.html">
+                                <span>
+                                    Календар турів
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="country-page.html">
+                                <span>
+                                    Країни
+                                </span>
+                            </a>
+                        </li>
+                        <li class="submenu">
+                            <a href="camp-page.html">
+                                <span>
+                                    Дитячий відпочинок
+                                </span>
+                            </a>
+                            <ul class="submenu-dropdown">
+                                <li>
+                                    <a href="#">
+                                        Табір Україна
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Табір Болгарія
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    Агенства
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    Про нас
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="header__email-mobile">
+                        <img src="img/mail_icon.png" alt="mail">
+                        <a href="mailto:zayavka.key@gmail.com">
+                            zayavka.key@gmail.com
+                        </a>
+                    </div>
+
+
+                    <div class="header__phone-mobile">
+                        <a href="tel:068 300 91 22">
+                            <img src="img/phone_icon.png" alt="phone">
+                            068 300 91 22
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="heroscreen" data-aos="fade">
+                <div class="container">
+                    <div class="heroscreen__slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="heroscreen__slide">
+                                    <img src="img/hero_img.jpg" alt="slider">
+                                    <div class="heroscreen__slide-content">
+                                        <h2 class="slide-title">
+                                            Мандруй Гірською <br>
+                                            україною
+                                        </h2>
+                                        <div class="slide-text">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur. Eu sem vitae amet elementum
+                                                vulputate eget id purus vestibulum. Purus ut non adipiscing eget eu
+                                                nibh
+                                                lacus commodo vitae.
+                                            </p>
+                                            <a href="#">
+                                                Підібрати тур
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="heroscreen__slide">
+                                    <img src="img/bolgary_image.png" alt="slider">
+                                    <div class="heroscreen__slide-content">
+                                        <h2 class="slide-title">
+                                            Мандруй Гірською <br>
+                                            україною
+                                        </h2>
+                                        <div class="slide-text">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur. Eu sem vitae amet elementum
+                                                vulputate eget id purus vestibulum. Purus ut non adipiscing eget eu
+                                                nibh
+                                                lacus commodo vitae.
+                                            </p>
+                                            <a href="#">
+                                                Підібрати тур
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="heroscreen__slide">
+                                    <img src="img/camp_heroimage.png" alt="slider">
+                                    <div class="heroscreen__slide-content">
+                                        <h2 class="slide-title">
+                                            Мандруй Гірською <br>
+                                            україною
+                                        </h2>
+                                        <div class="slide-text">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur. Eu sem vitae amet elementum
+                                                vulputate eget id purus vestibulum. Purus ut non adipiscing eget eu
+                                                nibh
+                                                lacus commodo vitae.
+                                            </p>
+                                            <a href="#">
+                                                Підібрати тур
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="promotion">
+                <div class="container">
+                    <div class="promotion__title" data-aos="zoom-up">
+                        <h2>
+                            Акційні тури
+                        </h2>
+                    </div>
+                    <div class="promotion__inner" data-aos="zoom-up" data-aos-delay="300">
+                        <div class="promotion__item">
+                            <a href="#">
+                                <img src="img/promotion_tour_1.png" alt="image">
+                                <span class="discount">
+                                    -26%
+                                </span>
+                                <div class="promotion__info">
+                                    <p>
+                                        Україна
+                                    </p>
+                                    <span>
+                                        <b>10 122</b> грн
+                                    </span>
+                                </div>
+                                <h3>
+                                    Львівські замки однодений тур
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="promotion__item">
+                            <a href="#">
+                                <img src="img/promotion_tour_1.png" alt="image">
+                                <span class="discount">
+                                    -26%
+                                </span>
+                                <div class="promotion__info">
+                                    <p>
+                                        Україна
+                                    </p>
+                                    <span>
+                                        <b>10 122</b> грн
+                                    </span>
+                                </div>
+                                <h3>
+                                    Львівські замки однодений тур
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="promotion__item">
+                            <a href="#">
+                                <img src="img/promotion_tour_1.png" alt="image">
+                                <span class="discount">
+                                    -26%
+                                </span>
+                                <div class="promotion__info">
+                                    <p>
+                                        Україна
+                                    </p>
+                                    <span>
+                                        <b>10 122</b> грн
+                                    </span>
+                                </div>
+                                <h3>
+                                    Львівські замки однодений тур
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="promotion__item">
+                            <a href="#">
+                                <img src="img/promotion_tour_1.png" alt="image">
+                                <span class="discount">
+                                    -26%
+                                </span>
+                                <div class="promotion__info">
+                                    <p>
+                                        Україна
+                                    </p>
+                                    <span>
+                                        <b>10 122</b> грн
+                                    </span>
+                                </div>
+                                <h3>
+                                    Львівські замки однодений тур
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="promotion__item">
+                            <a href="#">
+                                <img src="img/promotion_tour_1.png" alt="image">
+                                <span class="discount">
+                                    -26%
+                                </span>
+                                <div class="promotion__info">
+                                    <p>
+                                        Україна
+                                    </p>
+                                    <span>
+                                        <b>10 122</b> грн
+                                    </span>
+                                </div>
+                                <h3>
+                                    Львівські замки однодений тур
+                                </h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="secttour">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-left" data-aos-delay="300">
+                            <div class="secttour__img">
+                                <img src="img/bolgary_image.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+                            <div class="secttour__content">
+                                <h2>
+                                    Сонячна Болгарія
+                                </h2>
+                                <ul class="secttour-row">
+                                    <li>
+                                        <div class="icon">
+                                            <img src="img/bolgary_icon1.png" alt="icon">
+                                        </div>
+                                        <span>
+                                            Готель
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <img src="img/bolgary_icon3.png" alt="icon">
+                                        </div>
+                                        <span>
+                                            Їжа
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <img src="img/bolgary_icon2.png" alt="icon">
+                                        </div>
+                                        <span>
+                                            Море
+                                        </span>
+                                    </li>
+                                </ul>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Eu sem vitae amet elementum vulputate eget
+                                    id
+                                    purus vestibulum. Purus ut non adipiscing eget eu nibh lacus commodo vitae.
+                                </p>
+                                <a href="#">
+                                    Бронювати тур
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="secttour">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6" data-aos="fade-right">
+                            <div class="secttour__content" >
+                                <h2>
+                                    Автобусний чартер
+                                </h2>
+                                <ul class="secttour-row">
+                                    <li>
+                                        <div class="icon">
+                                            <img src="img/bus_icon1.png" alt="icon">
+                                        </div>
+                                        <span>
+                                            Комфортно
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <img src="img/bus_icon2.png" alt="icon">
+                                        </div>
+                                        <span>
+                                            Вчасно
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <img src="img/bus_icon3.png" alt="icon">
+                                        </div>
+                                        <span>
+                                            Надійно
+                                        </span>
+                                    </li>
+                                </ul>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Eu sem vitae amet elementum vulputate eget
+                                    id
+                                    purus vestibulum. Purus ut non adipiscing eget eu nibh lacus commodo vitae.
+                                </p>
+                                <a href="#">
+                                    Купити білети
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
+                            <div class="secttour__img">
+                                <img src="img/bus_image.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="camps">
+                <div class="container">
+                    <div class="camps__wrapper">
+                        <h2 data-aos="fade-up">
+                            Дитячі табори
+                        </h2>
+                        <div class="camps__inner" data-aos="fade-up" data-aos-delay="300">
+                            <div class="camps__box">
+                                <div class="image">
+                                    <img src="img/camps_head1.png" alt="image">
+                                    <h3>
+                                        Табір Болгарія
+                                    </h3>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Зміна Заїзду</a>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                08.05.2024 - 15.05.2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Зміна Заїзду</a>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                08.05.2024 - 15.05.2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Зміна Заїзду</a>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                08.05.2024 - 15.05.2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Зміна Заїзду</a>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                08.05.2024 - 15.05.2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Зміна Заїзду</a>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                08.05.2024 - 15.05.2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="camps__box">
+                                <div class="image">
+                                    <img src="img/camps_head2.png" alt="image">
+                                    <h3>
+                                        Табір Україна
+                                    </h3>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Зміна Заїзду</a>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                08.05.2024 - 15.05.2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Зміна Заїзду</a>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                08.05.2024 - 15.05.2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Зміна Заїзду</a>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                08.05.2024 - 15.05.2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Зміна Заїзду</a>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                08.05.2024 - 15.05.2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">Зміна Заїзду</a>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                08.05.2024 - 15.05.2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="excursions" data-aos="fade-left">
+                <div class="container">
+                    <div class="excursions__inner">
+                        <img src="img/excursion_bg.jpg" alt="img">
+                        <h2 data-aos="fade-left" data-aos-delay="100">
+                            Екскурсії Україною
+                        </h2>
+                        <p data-aos="fade-left" data-aos-delay="200">
+                            Lorem ipsum dolor sit amet consectetur. Massa et lobortis nulla proin. Aenean sodales
+                            nam ullamcorper a nisl ac diam. Nisl facilisi egestas nulla a aliquam enim id amet
+                            laoreet. Et natoque rhoncus mi fames. A viverra penatibus pharetra nec lobortis bibendum
+                            id ornare. Nulla urna mi pretium sed eleifend.
+                        </p>
+                        <a href="#" data-aos="fade-left" data-aos-delay="300">
+                            Бронювати тур
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contacts">
+                <div class="container">
+                    <h2>
+                        Контакти
+                    </h2>
+                    <ul class="contacts__row" data-aos="fade-up">
+                        <li>
+                            <div class="icon">
+                                <img src="img/contacts_phone_icon.png" alt="img">
+                            </div>
+                            <div class="info">
+                                <span>
+                                    Номер телефону
+                                </span>
+                                <a href="tel:+380 (66) 442 19 13">
+                                    +380 (66) 442 19 13
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <img src="img/contacts_mail_icon.png" alt="img">
+                            </div>
+                            <div class="info">
+                                <span>
+                                    Електрона пошта
+                                </span>
+                                <a href="mailto:zayavka.key@gmail.com">
+                                    zayavka.key@gmail.com
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <img src="img/contacts_loc_icon.png" alt="img">
+                            </div>
+                            <div class="info">
+                                <span>
+                                    Адреса
+                                </span>
+                                <a href="#">
+                                    вул.Коперніка 33
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="contacts__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6235.147234318233!2d24.71681330101518!3d48.92384181522757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c16e86308625%3A0xe980ae4baffd158f!2z0LLRg9C70LjRhtGPINCa0L7Qv9C10YDQvdC40LrQsCwgMzMsINCG0LLQsNC90L4t0KTRgNCw0L3QutGW0LLRgdGM0LosINCG0LLQsNC90L4t0KTRgNCw0L3QutGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzYwMDA!5e0!3m2!1sru!2sua!4v1709625417692!5m2!1sru!2sua"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer__logo">
+                            <a href="#">
+                                <img src="img/logo.png" alt="logotype">
+                            </a>
+                        </div>
+                        <div class="footer__menu">
+                            <div class="footer__menu-col">
+                                <h4>
+                                    Інформація
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            Головна
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Про нас
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Агенства
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__menu-col">
+                                <h4>
+                                    Послуги
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            Календар турів
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Країни
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Дитячий відпочинок
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__copy">
+                            <p>© 2024 KEY Trevel Company, Inc. All Rights Reserved</p>
+                        </div>
+                        <div class="footer__socials">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/facebook_icon.svg" alt="facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/instagram_icon.svg" alt="facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/telegram_icon.svg" alt="facebook">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/aos.js"></script>
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
